@@ -1,16 +1,9 @@
-import React from "react";
-import Hero from "./components/hero";
-import Services from "./components/services";
-import PriceList from "./components/priceList";
-import Apointment from "./components/apointment";
+import Routes from "./routes.jsx";
 
 const App = () => {
   return (
     <>
-      <Hero />
-      <Services />
-      <PriceList />
-      <Apointment />
+    <Routes/>
     </>
   );
 };

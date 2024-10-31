@@ -2,6 +2,8 @@ import { Button, DatePicker, Form, Input, Select } from "antd";
 import React from "react";
 
 const Apointment = () => {
+
+// POST request to the server 
   const handleApointment = (values) => {
     console.log(values);
   };
